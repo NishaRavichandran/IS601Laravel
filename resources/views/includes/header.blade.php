@@ -16,24 +16,10 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="/discover-online-courses">Discover</a>
+                        <a class="nav-link" href="/contact">Contact</a>
                     </li>
                     <li class="nav-item">
 
-                        {{--<a class="nav-link" href="/why-learana">Why Learana?</a>--}}
-                    {{--</li>--}}
-                    {{--<li class="nav-item">--}}
-                        {{--<a class="nav-link" href="/meet-learana">Meet Learana</a>--}}
-                    {{--</li>--}}
-                    {{--<li class="nav-item">--}}
-                        {{--<a class="nav-link" href="/connect">Connect</a>--}}
-                    {{--</li>--}}
-                    {{--<li class="nav-item">--}}
-                        {{--<a class="nav-link" href="/login">Login</a>--}}
-                    {{--</li>--}}
-                    {{--<li class="nav-item">--}}
-                        {{--<a class="nav-link" href="/get-started">Get Started</a>--}}
-                    {{--</li>--}}
                 </ul>
             </div>
     </nav>
