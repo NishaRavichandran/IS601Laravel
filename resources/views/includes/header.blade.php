@@ -15,10 +15,10 @@
                         <a class="navlink" href="/about">About</a>
                     </li>
 
-                    {{--<li class="nav-item">--}}
-                        {{--<a class="nav-link" href="/discover-online-courses">Discover</a>--}}
-                    {{--</li>--}}
-                    {{--<li class="nav-item">--}}
+                    <li class="nav-item">
+                        <a class="nav-link" href="/discover-online-courses">Discover</a>
+                    </li>
+                    <li class="nav-item">
 
                         {{--<a class="nav-link" href="/why-learana">Why Learana?</a>--}}
                     {{--</li>--}}
