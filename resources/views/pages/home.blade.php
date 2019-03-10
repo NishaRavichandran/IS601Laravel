@@ -3,13 +3,36 @@
 
 
         <!-- Main jumbotron for a primary marketing message or call to action -->
-        <div class="jumbotron" style="background-image: url('https://specials-images.forbesimg.com/imageserve/5a8d8e084bbe6f2652f61ae9/960x0.jpg?fit=scale')">
+        {{--<div class= "jumbotron w3-content w3-section" style="width:1000px; max-width:100%; height: 700px; max-height: 100%">--}}
+            {{--<img class="mySlides" src="https://specials-images.forbesimg.com/imageserve/5a8d8e084bbe6f2652f61ae9/960x0.jpg?fit=scale" style="width:100%; height:100%">--}}
+            {{--<img class="mySlides" src="https://www.sosmediacorp.com/wp-content/uploads/Own-One-of-Todays-Best-E-commerce-Websites.png" style="width:100%; height:100%">--}}
+            {{--<img class="mySlides" src="https://s3.amazonaws.com/logicwebmedia/wp-content/uploads/20180418214223/graphic-amazon-browser-ecommerce-shopping.jpg" style="width:100%; height:100%">--}}
+        {{--</div>--}}
+
+        <div class="jumbotron" id="jumbotron">
             <div class="container">
                 <h1 class="display-3" style="font-family: 'Lohit Gujarati'; color: darkblue; font-max-size: medium ">New York Amazing Events!</h1>
                 <p style="font-family: cursive; color: white; font-weight: bolder"> Want to know what’s happening in New York today, this weekend or in the coming months? Use our website to find the best things to do in winter, spring, summer and fall. Major events to look forward to in the beginning of the year include the New York Holi in the City Festival as well as The Lights Fest. Ready to unleash your inner culture vulture? Peep our top picks for the best art shows and concerts this year. /p>
                 <p><a class="btn btn-primary btn-lg" href="https://www.eventbrite.com/d/ny--new-york/parties/" role="button">Know More Information &raquo;</a></p>
             </div>
         </div>
+        <script>
+            //Array of images which you want to show: Use path you want.
+            var images=new Array('https://specials-images.forbesimg.com/imageserve/5a8d8e084bbe6f2652f61ae9/960x0.jpg?fit=scale','https://s3.amazonaws.com/logicwebmedia/wp-content/uploads/20180418214223/graphic-amazon-browser-ecommerce-shopping.jpg');
+            var myIndex = 0;
+            carousel();
+
+            function carousel() {
+
+                var x = document.getElementById('jumbotron');
+              //  x.style.backgroundImage = "none";
+
+                if (myIndex >= images.length) {myIndex = 0}
+                x.style.backgroundImage = "url('"+images[myIndex]+"')";
+                setTimeout(carousel, 3000); // Change image every 2 seconds
+                myIndex++;
+            }
+        </script>
 
         <div class="container">
             <!-- Example row of columns -->
