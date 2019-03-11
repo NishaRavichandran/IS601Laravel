@@ -43,7 +43,7 @@
                 <p style="font-family: cursive"> Festival of Colors: Holi NYC is a joyous celebration of the coming of
                     spring. It is a day of revelry full of live bands, DJs, art installations, delicious food, and great
                     people. It is a time to throw vibrantly colored powder at your friends and at strangers, and to
-                    dance together as one huge colorful mass of beautiful people. </p>
+                    dance together as one huge colorful mass.</p>
                 <p><a class="btn btn-secondary"
                       href="https://www.eventbrite.com/e/holi-in-the-city-sat-march-16-nycs-biggest-festival-of-colors-party-tickets-51566240012"
                       role="button">View details &raquo;</a></p>
@@ -53,7 +53,7 @@
                 <p style="font-family: cursive">The lights fest is dedicated to leaving a positive impact on the
                     environment and everyone who attends our event. This is an event that is for everyone but cultivates
                     individual experiences. Whether you’re commemorating or celebrating, you’re creating a special
-                    memory that will last a lifetime. </p>
+                    memory.</p>
                 <p><a class="btn btn-secondary" href="https://www.eventbrite.com/o/the-lights-fest-18734482771"
                       role="button">View details &raquo;</a></p>
             </div>

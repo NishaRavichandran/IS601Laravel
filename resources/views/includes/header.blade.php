@@ -18,11 +18,11 @@
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
-                   aria-expanded="false">Dropdown</a>
+                   aria-expanded="false">Events Happening</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown01">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item" href="https://www.eventbrite.com/d/united-states--new-jersey/events--this-weekend/?page=1">This Weekend</a>
+                    <a class="dropdown-item" href="https://www.eventbrite.com/d/united-states--new-jersey/events--this-month/?page=1">This Month</a>
+                    <a class="dropdown-item" href="https://www.eventbrite.com/d/united-states--new-jersey/events--next-month/?page=1">Next Month</a>
                 </div>
             </li>
         </ul>
