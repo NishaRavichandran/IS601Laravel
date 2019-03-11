@@ -13,14 +13,14 @@
 
     <main role="'main">
         @yield('content')
-        </main>
+    </main>
 
     @include('includes.jsfooter')
 
-        <footer class="row">
-            @include('includes.footer')
-        </footer>
+    <footer class="row">
+        @include('includes.footer')
+    </footer>
 
-      </div>
+</div>
 </body>
 </html>
