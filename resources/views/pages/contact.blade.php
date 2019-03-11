@@ -5,8 +5,10 @@
         <div class="card-title"><h1>Contact</h1>
             <p class="lead">Please use this form for Feedback and Queries.</p></div>
         <div class="=card-body">
-            <form action="/contact" method="post">
+            {{--<form action="/contact" method="POST">--}}
                 {{ csrf_field() }}
+            <form role="form" id="contact-form" class="contact-form" method="POST" action="{{route('contact.store')}}">
+                <input type="hidden" name="_token" id="token" value="{{ csrf_token() }}">
                 <div class="form-group">
                     <label for="name">Name</label>
                     <input name="name" type="name" class="form-control" id="name" rows="1">
